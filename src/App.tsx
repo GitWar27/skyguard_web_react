@@ -1,29 +1,29 @@
-import React from 'react';
-import './App.css';
-import 'antd/dist/antd.min.css'
+import React from "react";
+import "./App.css";
+import "antd/dist/antd.min.css";
+import { withRouter } from "react-router-dom";
 
-import { Layout } from 'antd';
-import { Navbar, Footers } from './components';
-import AppHome from './views/home';
+import { Layout } from "antd";
+import { Navbar, Footers } from "./components";
 
+import Routes from "./routes";
 
 const { Header, Content, Footer } = Layout;
 
-
-const App = () => {
+const App = (props: any) => {
   return (
     <Layout className="mainLayout">
       <Header>
         <Navbar />
       </Header>
       <Content>
-        <AppHome />
+        <Routes />
       </Content>
       <Footer>
-        <Footers />  
-      </Footer> 
+        <Footers />
+      </Footer>
     </Layout>
-  )
-}
+  );
+};
 
-export default App
+export default withRouter(App);

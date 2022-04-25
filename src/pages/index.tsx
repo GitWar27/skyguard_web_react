@@ -1,10 +1,9 @@
-
-export { default as About } from './about/About'
-export { default as Career } from './career/Career'
-export { default as ContactUs } from './contact/ContactUs'
-export { default as Gallery } from './gallery/Gallery'
-export { default as FAQ } from './faq/FAQ'
-export { default as Services } from './services/Services'
-export { default as TermsAndCondition } from './termscondition/TermsAndCondition'
-export { default as Clients} from './clients/Clients'
-export { default as WhyUs } from './why_us/Why_us'
+export { default as About } from "./about/About";
+export { default as Career } from "./career/Career";
+export { default as ContactUs } from "./contact";
+export { default as Gallery } from "./gallery/Gallery";
+export { default as FAQ } from "./faq/FAQ";
+export { default as Services } from "./services/Services";
+export { default as TermsAndCondition } from "./termscondition/TermsAndCondition";
+export { default as Clients } from "./clients/Clients";
+export { default as WhyUs } from "./why_us/Why_us";
